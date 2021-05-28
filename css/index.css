@@ -17,7 +17,7 @@ body{
 
 .wrapper{
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 50px 50px;
     width: 65vw;
     box-sizing: border-box;
     background-color: white;
@@ -247,4 +247,25 @@ body{
 .item.active > .subtitle, .item:hover > .subtitle{
     color: white;
     font-size: .95rem;
+}
+
+/* products end here */
+
+.source{
+    padding: 10px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    background-color: var(--cPrimary);
+    color: white;
+    font-weight: 500;
+}
+
+.source > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    background-color: var(--cSecondary);
 }
